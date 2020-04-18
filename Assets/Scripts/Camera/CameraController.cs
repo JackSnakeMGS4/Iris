@@ -81,8 +81,9 @@ public class CameraController : MonoBehaviour
         //    }
         //}
 
-        if (PlayerInput.interact == false  && GameManager.startGameplay == true)
+        if (PlayerInput.interact == false && GameManager.startGameplay == true)
         {
+            UpdateCamLight();
             ZoomCamIfChanged();
             RotateBody(pControl.moveStatus);
         }
@@ -132,10 +133,6 @@ public class CameraController : MonoBehaviour
     {
         //TODO: Have spotlight and Zoom camera inherit rotation from POV camera
         //TODO: Implement aim damping
-        if (camLight.activeSelf == false)
-        {
-            camLight.SetActive(true);
-        }
 
         float aimX = mouse.x * lightAimSensitivity * Time.deltaTime;
         float aimY = mouse.y * lightAimSensitivity * Time.deltaTime;
