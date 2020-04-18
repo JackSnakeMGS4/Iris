@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7923951397385674084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cutscene Test
+  m_EditorClassIdentifier: 
+  Path: event:/Cutscene Test
+  guid: 4d6aa5d2f5dd9c45901c3e6e6f57ff80
+  Banks:
+  - {fileID: -7649077804778996303}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 10000
+--- !u!114 &-7649077804778996303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Unity Projects/Iris/Assets/IrisFmod/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637226508055489164
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1235168
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 8745467920255671277}
+  - {fileID: -7649077804778996303}
+  EditorEvents:
+  - {fileID: 6294819711153202399}
+  - {fileID: -7923951397385674084}
+  - {fileID: 8650949805347515829}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -7649077804778996303}
+  StringsBanks:
+  - {fileID: 8745467920255671277}
+  stringsBankWriteTime: 637226508055489164
+  cacheVersion: 3
+--- !u!114 &6294819711153202399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience Test
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience Test
+  guid: 3e9689bb41130846ae1026d36381fea6
+  Banks:
+  - {fileID: -7649077804778996303}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 39428
+--- !u!114 &8650949805347515829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/3D Sound Test
+  m_EditorClassIdentifier: 
+  Path: event:/3D Sound Test
+  guid: 70f1190f55c0174dad5f6339daf50df9
+  Banks:
+  - {fileID: -7649077804778996303}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 15406
+--- !u!114 &8745467920255671277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Unity Projects/Iris/Assets/IrisFmod/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637226508055489164
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 952
+  Exists: 1

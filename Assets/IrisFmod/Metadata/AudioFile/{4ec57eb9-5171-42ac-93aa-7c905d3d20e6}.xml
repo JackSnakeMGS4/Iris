@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{4ec57eb9-5171-42ac-93aa-7c905d3d20e6}">
+		<property name="assetPath">
+			<value>Forest Horror Ambience_Loop.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>39.428571428571431</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ad4787e1-e18a-4f57-9f80-5619d916dacf}</destination>
+		</relationship>
+	</object>
+</objects>
