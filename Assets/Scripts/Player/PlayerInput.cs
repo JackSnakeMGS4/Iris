@@ -62,6 +62,7 @@ public class PlayerInput : MonoBehaviour
     public static bool isAimingLight { get { return Input.GetButton("Aim Light"); } }
     public static bool useLight { get { return Input.GetButton("Use Light"); } }
     public static bool interact { get { return Input.GetButtonDown("Interact"); } }
+    public static bool pause { get { return Input.GetButtonDown("Pause Game"); } }
 
     private Vector2 previous;
 

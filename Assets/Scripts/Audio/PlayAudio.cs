@@ -38,6 +38,13 @@ public class PlayAudio : MonoBehaviour
         {
             RuntimeManager.PlayOneShot(extraEvent1, audioLocation.position);
         }
+        else
+        {
+            if(eventFilepath != null)
+            {
+                RuntimeManager.PlayOneShot(eventFilepath, audioLocation.position);
+            }
+        }
     }
 
     private void OnTriggerEnter(Collider other)

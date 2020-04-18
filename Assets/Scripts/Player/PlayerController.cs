@@ -53,7 +53,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (GameManager.startGameplay == true)
+        if (GameManager.startGameplay == true && GameManager._blackoutInEffect == false)
         {
             UpdateMovement();
         }
@@ -76,7 +76,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (GameManager.startGameplay == true)
+        if (GameManager.startGameplay == true && GameManager._blackoutInEffect == false)
         {
             if (Cheats.FlyModeEnabled == false)
             {

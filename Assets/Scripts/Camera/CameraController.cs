@@ -63,25 +63,7 @@ public class CameraController : MonoBehaviour
 
     private void Update()
     {
-        //if (PlayerInput.interact == false)
-        //{
-        //    if (PlayerInput.isAimingLight == true)
-        //    {
-        //        UpdateCamLight();
-        //    }
-        //    else
-        //    {
-        //        if (camLight.activeSelf == true)
-        //        {
-        //            camLight.SetActive(false);
-        //            //SwitchFpsCams();
-        //        }
-
-        //        RotateBody();
-        //    }
-        //}
-
-        if (PlayerInput.interact == false && GameManager.startGameplay == true)
+        if (PlayerInput.interact == false && GameManager.startGameplay == true && GameManager._blackoutInEffect == false)
         {
             UpdateCamLight();
             ZoomCamIfChanged();

@@ -12,6 +12,9 @@ public class GameManager : MonoBehaviour
     private bool gamePaused = false;
     public static bool pauseGame { get { return GameManager.GM.gamePaused; } }
 
+    private bool blackoutInEffect = false;
+    public static bool _blackoutInEffect { get { return GameManager.GM.blackoutInEffect; } set { GameManager.GM.blackoutInEffect = value; } }
+
     private void Awake()
     {
         GM = this;
@@ -20,6 +23,11 @@ public class GameManager : MonoBehaviour
     public void StartGameplay()
     {
         gameplayStarted = true;
+    }
+
+    public void StopBlackoutEvent()
+    {
+        blackoutInEffect = false;
     }
 
     public void PauseGame()

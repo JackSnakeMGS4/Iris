@@ -16,9 +16,12 @@ public class PlayerInteraction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (PlayerInput.interact == true)
+        if (GameManager.startGameplay == true && GameManager._blackoutInEffect == false)
         {
-            Interact();
+            if (GameManager.pauseGame == false && PlayerInput.interact == true)
+            {
+                Interact();
+            }
         }
     }
 
@@ -43,6 +46,11 @@ public class PlayerInteraction : MonoBehaviour
             if (dC != null)
             {
                 dC.HandleDoorInteraction(hit.collider.gameObject.layer, hit.collider);
+            }
+            else if(hit.collider.CompareTag("Key"))
+            {
+                DoorKnob._canOpenDoor = true;
+                hit.collider.gameObject.SetActive(false);
             }
         }
     }

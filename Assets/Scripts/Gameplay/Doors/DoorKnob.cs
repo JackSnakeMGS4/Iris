@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class DoorKnob : MonoBehaviour
 {
-    [SerializeField] [FMODUnity.EventRef] private string responseToKnobInteractions;
-    [SerializeField] private PlayAudio myAudio;
+    [SerializeField] private PlayableDirector blackoutDirector;
 
     private DoorController myDC;
     private static bool canOpenDoor = false;
@@ -35,9 +35,8 @@ public class DoorKnob : MonoBehaviour
             if(numberOfInteractions == 2)
             {
                 //Debug.Log("Playing audio event");
-                myAudio.CueAudio(responseToKnobInteractions);
-                // Lock player controls (since they're in a cutscene) ,Play glitch cutscene, fade to black, place player on sofa, 
-                // play animation for camera checking surroundings (FYI: You'll need to do this within coroutine so it doesn't run everything instantly)
+                GameManager._blackoutInEffect = true;
+                blackoutDirector.Play();
             }
         }
     }
