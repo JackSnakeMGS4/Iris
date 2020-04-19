@@ -43,6 +43,7 @@ public class PlayerInteraction : MonoBehaviour
 
             DoorController dC = hit.collider.GetComponentInParent<DoorController>();
             PlayStareAnimation stare = hit.collider.GetComponent<PlayStareAnimation>();
+            HallDoor hD = hit.collider.GetComponent<HallDoor>();
 
             if (dC != null)
             {
@@ -51,6 +52,10 @@ public class PlayerInteraction : MonoBehaviour
             else if (stare != null)
             {
                 stare.Stare();
+            }
+            else if (hD != null)
+            {
+                hD.OpenDoor();
             }
             else if (hit.collider.CompareTag("Key"))
             {

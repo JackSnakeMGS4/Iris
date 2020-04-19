@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{4a7b18af-0661-47f8-8b68-20bdaa5141c3}">
+		<property name="assetPath">
+			<value>2020_0418c/CIN_BodySlamDoor.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.8500000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ad4787e1-e18a-4f57-9f80-5619d916dacf}</destination>
+		</relationship>
+	</object>
+</objects>

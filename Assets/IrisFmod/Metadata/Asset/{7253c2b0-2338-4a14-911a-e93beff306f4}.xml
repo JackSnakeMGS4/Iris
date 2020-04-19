@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EncodableAsset" id="{7253c2b0-2338-4a14-911a-e93beff306f4}">
+		<property name="assetPath">
+			<value>2020_0418/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ad4787e1-e18a-4f57-9f80-5619d916dacf}</destination>
+		</relationship>
+	</object>
+</objects>

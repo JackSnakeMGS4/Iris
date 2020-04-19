@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{c3b7df6b-c591-4117-b8c1-b98a4e4b8c24}">
+		<property name="name">
+			<value>Fade AMB 2</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f941e060-5f02-47dc-be59-ab79e01302da}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{fbb6d4ae-fea9-4824-abae-2293230afc31}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{fbb6d4ae-fea9-4824-abae-2293230afc31}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.15000000596046448</value>
+		</property>
+	</object>
+</objects>

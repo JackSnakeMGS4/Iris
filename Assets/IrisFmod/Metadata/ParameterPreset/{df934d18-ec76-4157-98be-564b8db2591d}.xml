@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{df934d18-ec76-4157-98be-564b8db2591d}">
+		<property name="name">
+			<value>AMB Type</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f941e060-5f02-47dc-be59-ab79e01302da}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{6458bb33-ba1b-49b9-933d-acc4deb4c78e}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{6458bb33-ba1b-49b9-933d-acc4deb4c78e}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.30000001192092896</value>
+		</property>
+	</object>
+</objects>

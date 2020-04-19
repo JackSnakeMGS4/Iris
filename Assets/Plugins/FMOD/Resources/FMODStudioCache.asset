@@ -1,5 +1,28 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9017115423739963786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Final Audio/Blackout
+  m_EditorClassIdentifier: 
+  Path: event:/Final Audio/Blackout
+  guid: 5419b03cb2ec2e4eacf6d61d54cf018f
+  Banks:
+  - {fileID: -7649077804778996303}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 9700
 --- !u!114 &-7923951397385674084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23,6 +46,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 10000
+--- !u!114 &-7903074190005781086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Final Audio/Intro
+  m_EditorClassIdentifier: 
+  Path: event:/Final Audio/Intro
+  guid: 0e4d9dfde540bb49a191b23bc35509a6
+  Banks:
+  - {fileID: -7649077804778996303}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 20266
 --- !u!114 &-7649077804778996303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37,12 +83,186 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: C:/Unity Projects/Iris/Assets/IrisFmod/Build/Desktop/Master.bank
   SubDir: 
-  lastModified: 637226508055489164
+  lastModified: 637228707723865837
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1235168
+    Value: 6022720
   Exists: 1
+--- !u!114 &-6668110775523577186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambience/Fade AMB 1
+  m_EditorClassIdentifier: 
+  Name: Fade AMB 1
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-6445102278160218273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Final Audio/Door Unlocked
+  m_EditorClassIdentifier: 
+  Path: event:/Final Audio/Door Unlocked
+  guid: ad9b5e6021b3714ab0be9e76cc8f7136
+  Banks:
+  - {fileID: -7649077804778996303}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &-6423462496756770394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambience/Fade AMB 2
+  m_EditorClassIdentifier: 
+  Name: Fade AMB 2
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-6224189665380832977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Final Audio/Robed Figure
+  m_EditorClassIdentifier: 
+  Path: event:/Final Audio/Robed Figure
+  guid: d5f544a7c0261b4cb51642908d404787
+  Banks:
+  - {fileID: -7649077804778996303}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 70
+  Length: 5866
+--- !u!114 &-5273885017421015841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Final Audio/Door Close
+  m_EditorClassIdentifier: 
+  Path: event:/Final Audio/Door Close
+  guid: e23e1b1afd44a24d9afb243abb700323
+  Banks:
+  - {fileID: -7649077804778996303}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 45
+  Length: 4000
+--- !u!114 &-3738904695549945330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Final Audio/Game Start
+  m_EditorClassIdentifier: 
+  Path: event:/Final Audio/Game Start
+  guid: 8b6649eb71ded94ca1a5882f16a8f028
+  Banks:
+  - {fileID: -7649077804778996303}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 22033
+--- !u!114 &-2868893289531789481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Final Audio/Key Collected
+  m_EditorClassIdentifier: 
+  Path: event:/Final Audio/Key Collected
+  guid: 4dc15e7a65ed5f428ded82c45db40ab8
+  Banks:
+  - {fileID: -7649077804778996303}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 13833
+--- !u!114 &-2238429396016522747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Final Audio/Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/Final Audio/Ambience
+  guid: 226bcc8ee2ec1845bb431374b7b0f573
+  Banks:
+  - {fileID: -7649077804778996303}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -6668110775523577186}
+  - {fileID: -6423462496756770394}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 81285
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62,13 +282,214 @@ MonoBehaviour:
   - {fileID: 6294819711153202399}
   - {fileID: -7923951397385674084}
   - {fileID: 8650949805347515829}
+  - {fileID: 5591605631968956560}
+  - {fileID: -7903074190005781086}
+  - {fileID: -2238429396016522747}
+  - {fileID: 1600368309760829842}
+  - {fileID: -2868893289531789481}
+  - {fileID: 4368018913235402851}
+  - {fileID: -9017115423739963786}
+  - {fileID: 4880735934454401610}
+  - {fileID: -3738904695549945330}
+  - {fileID: -6445102278160218273}
+  - {fileID: 1930271251536078999}
+  - {fileID: 5508027766248225991}
+  - {fileID: -6224189665380832977}
+  - {fileID: 4338906514581811534}
+  - {fileID: -5273885017421015841}
+  - {fileID: 8368307136384235558}
+  - {fileID: 727452007786792819}
   EditorParameters: []
   MasterBanks:
   - {fileID: -7649077804778996303}
   StringsBanks:
   - {fileID: 8745467920255671277}
-  stringsBankWriteTime: 637226508055489164
+  stringsBankWriteTime: 637228707723961840
   cacheVersion: 3
+--- !u!114 &727452007786792819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Final Audio/Ending Event Zone
+  m_EditorClassIdentifier: 
+  Path: event:/Final Audio/Ending Event Zone
+  guid: f652f68ae5157848bd14c22f32c17a2f
+  Banks:
+  - {fileID: -7649077804778996303}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 90679
+--- !u!114 &1600368309760829842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Final Audio/Door Slam
+  m_EditorClassIdentifier: 
+  Path: event:/Final Audio/Door Slam
+  guid: 3f709c25c3dfe74a89923a7d291b48f3
+  Banks:
+  - {fileID: -7649077804778996303}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3850
+--- !u!114 &1930271251536078999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Final Audio/Game End
+  m_EditorClassIdentifier: 
+  Path: event:/Final Audio/Game End
+  guid: be2f6d47319ece47adbbc69800ad470a
+  Banks:
+  - {fileID: -7649077804778996303}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 15783
+--- !u!114 &4338906514581811534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Final Audio/Tile Footstep
+  m_EditorClassIdentifier: 
+  Path: event:/Final Audio/Tile Footstep
+  guid: e14be59697e28248b03083f795ee3461
+  Banks:
+  - {fileID: -7649077804778996303}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &4368018913235402851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Final Audio/Receding Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/Final Audio/Receding Footsteps
+  guid: 53397e562a2ccd40862d0f2b41906594
+  Banks:
+  - {fileID: -7649077804778996303}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10316
+--- !u!114 &4880735934454401610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Final Audio/Door Open
+  m_EditorClassIdentifier: 
+  Path: event:/Final Audio/Door Open
+  guid: 5a5784892411cc4f9f192772d08a0f0f
+  Banks:
+  - {fileID: -7649077804778996303}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &5508027766248225991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Final Audio/Wood Footstep
+  m_EditorClassIdentifier: 
+  Path: event:/Final Audio/Wood Footstep
+  guid: d5254e3c737bdb47b3255ab34b6fda70
+  Banks:
+  - {fileID: -7649077804778996303}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &5591605631968956560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Final Audio/Door Locked
+  m_EditorClassIdentifier: 
+  Path: event:/Final Audio/Door Locked
+  guid: 00b143bfef5fc5459860a4c65a4b3b25
+  Banks:
+  - {fileID: -7649077804778996303}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
 --- !u!114 &6294819711153202399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92,6 +513,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 39428
+--- !u!114 &8368307136384235558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Final Audio/Bathroom Noise
+  m_EditorClassIdentifier: 
+  Path: event:/Final Audio/Bathroom Noise
+  guid: f3e8574e0dbcd541a32612c43f0f54a7
+  Banks:
+  - {fileID: -7649077804778996303}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 41166
 --- !u!114 &8650949805347515829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,9 +573,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: C:/Unity Projects/Iris/Assets/IrisFmod/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637226508055489164
+  lastModified: 637228707723961840
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 952
+    Value: 1812
   Exists: 1
