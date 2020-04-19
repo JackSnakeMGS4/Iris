@@ -42,12 +42,17 @@ public class PlayerInteraction : MonoBehaviour
             Debug.Log("Hit an interactible: " + hit.collider.name);
 
             DoorController dC = hit.collider.GetComponentInParent<DoorController>();
+            PlayStareAnimation stare = hit.collider.GetComponent<PlayStareAnimation>();
 
             if (dC != null)
             {
                 dC.HandleDoorInteraction(hit.collider.gameObject.layer, hit.collider);
             }
-            else if(hit.collider.CompareTag("Key"))
+            else if (stare != null)
+            {
+                stare.Stare();
+            }
+            else if (hit.collider.CompareTag("Key"))
             {
                 DoorKnob._canOpenDoor = true;
                 hit.collider.gameObject.SetActive(false);

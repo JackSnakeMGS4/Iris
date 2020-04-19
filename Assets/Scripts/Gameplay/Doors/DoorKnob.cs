@@ -9,7 +9,7 @@ public class DoorKnob : MonoBehaviour
 
     private DoorController myDC;
     private static bool canOpenDoor = false;
-    public static bool _canOpenDoor { set { DoorKnob.canOpenDoor = value; } }
+    public static bool _canOpenDoor { get { return DoorKnob.canOpenDoor; } set { DoorKnob.canOpenDoor = value; } }
 
     private int numberOfInteractions;
 
